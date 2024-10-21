@@ -1,0 +1,35 @@
+body {
+    font-family: 'Garamond', serif;
+    background-color: #282c34;
+    color: #f0e68c;
+}
+
+header {
+    background-color: #3b3f47;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: #f0e68c;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #444b53;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3b3f47;
+}
