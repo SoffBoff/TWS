@@ -1,11 +1,11 @@
 body {
     font-family: 'Garamond', serif;
-    background-color: #282c34;
-    color: #f0e68c;
+    background-color: #0f6bae;
+    color: #c6cdff;
 }
 
 header {
-    background-color: #3b3f47;
+    background-color: #83b8ff;
     padding: 20px;
     text-align: center;
 }
@@ -16,7 +16,7 @@ nav ul {
 }
 
 nav a {
-    color: #f0e68c;
+    color: #c6cdff;
     text-decoration: none;
     margin: 0 15px;
 }
@@ -24,12 +24,12 @@ nav a {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #444b53;
+    background-color: #83b8ff;
     border-radius: 10px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #3b3f47;
+    background-color: #248bd6;
 }
