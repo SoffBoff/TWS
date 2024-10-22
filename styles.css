@@ -1,11 +1,11 @@
 body {
     font-family: 'Garamond', serif;
-    background-color: #0f6bae;
+    background-color: #0b293f;
     color: #c6cdff;
 }
 
 header {
-    background-color: #83b8ff;
+    background-color: #0f4955;
     padding: 20px;
     text-align: center;
 }
@@ -24,7 +24,7 @@ nav a {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #83b8ff;
+    background-color: #0f4955;
     border-radius: 10px;
 }
 
