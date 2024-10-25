@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: rgba(15,73,85,0.8);
+    background-color: rgba(15,73,85,0.9);
     padding: 20px;
     text-align: center;
 }
@@ -43,7 +43,7 @@ nav a:hover {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: rgba(15,73,85,0.8);
+    background-color: rgba(15,73,85,0.9);
     border-radius: 10px;
 }
 
