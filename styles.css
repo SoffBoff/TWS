@@ -50,5 +50,8 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #248bd6;
+    background-image: url('images/lcov_sala.jpg'); /* Replace with your image path */
+    background-size: cover; /* Makes sure the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-color: rgba(15,73,85);
 }
