@@ -13,10 +13,33 @@ header {
     text-align: center;
 }
 
+/* Slim banner */
+.banner-container {
+    position: relative;
+    height: 300px; /* Adjust to make banner slimmer */
+    overflow: hidden;
+}
+
 .banner {
-    width: 100%; /* Makes the image full width */
-    max-width: 1200px; /* Adjust as needed */
-    height: auto; /* Maintains the aspect ratio */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Prevents stretching */
+    transition: filter 0.5s ease; /* For smooth blur effect */
+}
+
+/* Scroll effect for header text */
+header h1 {
+    position: fixed;
+    top: 50px; /* Adjust as needed */
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    transition: opacity 0.5s ease;
+}
+
+main {
+    margin-top: 300px; /* Offset main content to avoid overlap with fixed header */
 }
 
 nav ul {
