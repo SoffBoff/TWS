@@ -8,8 +8,10 @@
 </head>
 <body>
     <header>
-        <img src="images/scov_sala.jpg" alt="Zeichen der TWs">
-        <h1>Willkommen im Stadtviertel (Test)</h1>
+        <div class="banner-container">
+          <img src="images/scov_sala.jpg" alt="Zeichen der TWs">
+          <h1>Willkommen im Stadtviertel (Test)</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="#about">Geschichte</a></li>
@@ -62,6 +64,7 @@
     
       // Fade out the header text slightly as you scroll
       title.style.opacity = 1 - Math.min(scrollPos / 200, 1);
+      title.style.transform = `translate(-50%, calc(-50% - ${scrollPos / 10}px))`;
     });
     <script>
 
