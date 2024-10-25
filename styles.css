@@ -1,5 +1,8 @@
 body {
-    font-family: 'Garamond', serif;
+    font-family: 'Times New Roman', serif;
+    background-image: url('images/back_tar.jpg'); /* Replace with your image path */
+    background-size: cover; /* Makes sure the image covers the entire background */
+    background-position: center; /* Centers the image */
     background-color: #0b293f;
     color: #c6cdff;
 }
