@@ -31,15 +31,17 @@ header {
 header h1 {
     position: fixed;
     top: 50px; /* Adjust as needed */
-    width: 100%;
-    text-align: center;
-    font-size: 2em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
     color: #ffffff;
-    transition: opacity 0.5s ease;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); /* Adds shadow for contrast */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth fade and slide */
 }
 
 main {
-    margin-top: 300px; /* Offset main content to avoid overlap with fixed header */
+    margin-top: 0; /* Remove extra margin to avoid gaps */
+    padding: 20px; /* Optional padding for main content */
 }
 
 nav ul {
