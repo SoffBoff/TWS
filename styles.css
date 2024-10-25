@@ -21,6 +21,13 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center the menu items horizontally */
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px; /* Adds spacing between menu items */
 }
 
 nav a {
@@ -29,10 +36,14 @@ nav a {
     margin: 0 15px;
 }
 
+nav a:hover {
+    color: #e1d8ff; /* Optional: Change the color of the link when hovered */
+}
+
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #0f4955;
+    background-color: rgba(0, 46, 78, 0.2);
     border-radius: 10px;
 }
 
