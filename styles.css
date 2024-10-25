@@ -3,12 +3,12 @@ body {
     background-image: url('images/back_tar.jpg'); /* Replace with your image path */
     background-size: cover; /* Makes sure the image covers the entire background */
     background-position: center; /* Centers the image */
-    background-color: #0b293f;
-    color: #c6cdff;
+    background-color: rgba(15,73,85);
+    color: #ffffff;
 }
 
 header {
-    background-color: #0f4955;
+    background-color: rgba(15,73,85,0.8);
     padding: 20px;
     text-align: center;
 }
@@ -31,19 +31,19 @@ nav li {
 }
 
 nav a {
-    color: #c6cdff;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 15px;
 }
 
 nav a:hover {
-    color: #e1d8ff; /* Optional: Change the color of the link when hovered */
+    color: #fe9400; /* Optional: Change the color of the link when hovered */
 }
 
 section {
     margin: 20px;
     padding: 20px;
-    background-color: rgba(0, 46, 78, 0.8);
+    background-color: rgba(15,73,85,0.8);
     border-radius: 10px;
 }
 
