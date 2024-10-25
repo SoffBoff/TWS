@@ -50,5 +50,20 @@
     <footer>
         <p>&copy; 2024 Mystical Realm. All rights reserved.</p>
     </footer>
+
+    <script>
+    window.addEventListener('scroll', () => {
+      const scrollPos = window.scrollY;
+      const banner = document.querySelector('.banner');
+      const title = document.querySelector('header h1');
+    
+      // Adjust the blur amount based on scroll position
+      banner.style.filter = `blur(${Math.min(scrollPos / 50, 10)}px)`;
+    
+      // Fade out the header text slightly as you scroll
+      title.style.opacity = 1 - Math.min(scrollPos / 200, 1);
+    });
+    <script>
+
 </body>
 </html>
