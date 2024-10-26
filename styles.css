@@ -3,7 +3,6 @@ body {
     background-image: url('images/back_tar.jpg'); /* Replace with your image path */
     background-size: cover; /* Makes sure the image covers the entire background */
     background-position: center; /* Centers the image */
-    background-color: rgba(15,73,85);
     color: #ffffff;
 }
 
@@ -29,7 +28,7 @@ header {
 
 /* Scroll effect for header text */
 header h1 {
-    position: fixed;
+    position: absolute;
     top: 50px; /* Adjust as needed */
     left: 50%;
     transform: translate(-50%, -50%);
