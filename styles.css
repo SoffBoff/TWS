@@ -15,7 +15,7 @@ header {
 /* Slim banner */
 .banner-container {
     position: relative;
-    height: 300px; /* Adjust to make banner slimmer */
+    height: 100px; /* Adjust to make banner slimmer */
     overflow: hidden;
 }
 
@@ -75,11 +75,23 @@ section {
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
+    position: relative;
+    width: 100%;
+    height: 300px; /* Match this height to the banner, or adjust as needed */
     background-image: url('images/lcov_sala.jpg'); /* Replace with your image path */
-    background-size: cover; /* Makes sure the image covers the entire background */
-    background-position: center; /* Centers the image */
-    background-color: rgba(15,73,85);
-    background-blend-mode: overlay; /* Blends color with image */
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(15,73,85, 0.95); /* Adjust opacity for consistency */
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+footer p {
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    font-size: 1em; /* Adjust as needed */
 }
